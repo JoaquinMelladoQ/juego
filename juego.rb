@@ -8,7 +8,7 @@ puts "Computador juega #{azar_computador}"
 
 
 # Datos preguntados al usuario
-datos_usuario = ARGV[0].to_s
+datos_usuario = ARGV[0].downcase
 
 # Lógica del juego
 
